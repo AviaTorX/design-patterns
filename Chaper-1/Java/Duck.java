@@ -1,5 +1,6 @@
 public abstract class Duck {
 
+    // Design Principle: Favour composition over inheritance
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
@@ -15,5 +16,13 @@ public abstract class Duck {
 
     public void performQuack() {
         quackBehavior.quack();
+    }
+
+    public void setFlyBehavior(FlyBehavior f) {
+        flyBehavior = f;
+    }
+
+    public void setQuackBehavior(QuackBehavior q) {
+        quackBehavior = q;
     }
 }
