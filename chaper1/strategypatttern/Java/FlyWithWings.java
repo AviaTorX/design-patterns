@@ -1,3 +1,4 @@
+package chaper1.strategypatttern.Java;
 
 // Design Principle: Seprate out what varies in this case
 // Duck was having fly behavior which was varying based on duck type

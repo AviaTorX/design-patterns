@@ -1,3 +1,4 @@
+package chaper1.strategypatttern.Java;
 public abstract class Duck {
 
     // Design Principle: Favour composition over inheritance

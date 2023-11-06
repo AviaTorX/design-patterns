@@ -1,3 +1,4 @@
+package chaper1.strategypatttern.Java;
 public class MallardDuck extends Duck{
     public MallardDuck() {
         // All mallardDuck will have default following behaviors

@@ -1,3 +1,4 @@
+package chaper1.strategypatttern.Java;
 /**
  * FlyBehavior
  */
